@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="IMAGES/shortcut.png" type="image/x-icon">
+    <title>Bayezit Karajayev | Portfolio</title>
+
+    <link rel="stylesheet" href="CSS/home.css">
+    <script src="https://kit.fontawesome.com/c0645272a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <span id="obj"></span>
+    <span id="fastToStart"><i class="fa fa-chevron-circle-up"></i><span class="tooltip">Up</span></span>
+    <div class="wrapper">
+<!-- ##############  SIDEBAR  #################################### -->
+        <div class="sidebar">
+            <div class="back-blur"></div>
+            <div class="sidebar__element" onclick="share()"><i class="fa fa-instagram" id="instagram"></i></div>
+            <div class="sidebar__element" onclick="share()"><i class="fa fa-telegram" id="telegram"></i></div>
+            <div class="sidebar__element" onclick="share()"><img src="IMAGES/startBest.png" alt=""></div>
+            <div class="sidebar__element" ><i class="fa fa-chevron-circle-down" id="goToContact"></i><span class="tooltip">contact</span></div>
+    
+          </div>
+
+
+<!-- ##############  HOME SECTION  ############################### -->
+        <div class="home" id="home">
+            <div class="home__content">
+
+                <div class="home__creator-photo">
+                    <img src="IMAGES/avaNew.jpg" alt="Me">
+                </div>
+
+                <div class="container">
+                    <div class="container__text-section"> <div class="back-blur"></div> <span>Hello<div class="shaking-hand">👋</div>I am :</span>
+                        <div class="container__moving-text-container"> 
+                            <div class="container__moving-text-section">
+                                <div class="container__moving-text first">Bayezit Karajayev</div>
+                                <div class="container__moving-text second">Web-Developer</div>
+                                <div class="container__moving-text third">Future Senior</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__ending">
+                    <div class="home__ending-elements">
+                        <a class="home__ending-element">Go Ahead <span class="go-ahead-button-b">Go Ahead</span></a>
+                        <a class="home__ending-element arrow-down"><i class="fas fa-chevron-down"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+<!-- ##############  ABOUT SECTION  ############################## -->
+        <div class="about" id="about">
+            <div class="about__header">
+                <div class="about__header-elements-container">
+                    <a class="about__header-element">Home<span class="underline"></span></a>
+                    <a class="about__header-element">About<span class="underline"></span></a>
+                    <a class="about__header-element">Portfolio<span class="underline"></span></a>
+                    <a class="about__header-element">Contact<span class="underline"></span></a>
+                </div>
+            </div>
+
+            <div class="about__content">
+                <h1>FRONTEND - DEVELOPER <i class="fa fa-code"></i> </h1>
+                <img src="IMAGES/HTMLcpnstructor.png" alt="photo">
+                <img src="IMAGES/csswebdev.png" alt="photo">
+                <div class="about__content-container">
+                    <div class="about__content-text">
+                        <div class="back-blur"></div>
+                        {<span class="typewriter thick">{&nbsp;&nbsp;&nbsp;&nbsp;Hey! Now you know me, let's see what kind of fruit I am: frontend - developer. I finished web-development course. Also, I have expiriences in TEAMWORK and i was a TEAM-LEAD. In 2021 I went to soft-skills course, I did great and I do. I'm communicative, leadership, positive-thinker, hard-working, proactive. I'm learning fast. And I love programming.&nbsp;&nbsp;&nbsp;&nbsp;}</span>}
+                        
+                    </div>
+                </div>
+                <div class="about__words">
+                    "Even if I improve by 1% every year, by the end of my life I will be a professional in my field"
+                </div>
+            </div>
+        </div>
+
+
+<!-- ############### PORTFOLIO SECTION  ########################## -->
+        <div class="portfolio" id="portfolio">
+            <div class="portfolio__container">
+                <div class="portfolio__container-content">
+                    <h1>let's look at my works:</h1>
+                    <div class="portfolio__container-content-works">
+                        <div class="back-blur"></div>
+                        <img src="IMAGES/works/Снимок экрана 2023-11-16 230456.png" alt="">
+                        <img src="IMAGES/works/Screenshot 2023-09-13 225255.png" alt="">
+                        <img src="IMAGES/works/Снимок экрана 2023-11-12 145920.png" alt="">
+                        <img src="IMAGES/works/Screenshot 2023-09-16 190658.png" alt="">
+                        <img src="IMAGES/works/Screenshot 2023-09-15 210716.png" alt="">
+                        <img src="IMAGES/works/Screenshot 2023-09-13 225357.png" alt="">
+                    </div>
+                    <h4>Do you like them ???</h4>
+                    <h5>Also I have a bit more small projects. But they are stored with me.</h5>
+                </div>
+            </div>
+        </div>
+
+
+<!-- ###########  CONTACT SEECTION  ################################## -->
+        <div class="contact" id="contact">
+            <div class="contact__container">
+                <div class="contact__container-content">
+                    <h2>If you like what i am doing, then you can contact with me right now. <p>Write me:</p></h2>
+                    <form method="post" name="contact_form" action="contact-form-handler.php" class="contact-form">
+                        <div class="back-blur"></div>
+
+                        <div class="contact-form__row">
+                            Your Name:
+                            <input type="text" name="name">
+                        </div>
+                        <div class="contact-form__row">
+                            Email Address:
+                            <input type="text" name="email">
+                        </div>
+                        <div class="contact-form__row">
+                            Message:
+                            <textarea name="message"></textarea>
+                        </div>
+                        <div class="contact-form__row">
+                            <button type="submit" class="submit">Send <span class="submit__b">Send</span></button>
+                        </div>
+                        
+                    </form>
+
+                </div>
+            </div>
+        </div>
+<!-- ##################################################################### -->
+
+        <footer class="footer">
+            <div class="footer__row">bayezitkarajaew@gmail.com | +993 65 25-97-62</div>
+            <div class="footer__row">copyright</div>
+            <div class="footer__row"></div>
+        </footer>
+    </div>
+
+    <script src="JS/Functionality.js"></script>
+
+</body>
+</html>

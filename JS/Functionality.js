@@ -46,20 +46,21 @@ function move_headerElementUnderline() {
     };
 };
 
-function share() {
-    sidebar.addEventListener("click", e =>  {
-        i = e.target.getAttribute('id')
-        if ( i == 'instagram') {
-            window.location.href = 'https://www.instagram.com/b.karajaew?igshid=MTNiYzNiMzkwZA==';
-        }
-        else if (i == 'github') {
-            window.location.href = 'https://github.com/karadzabayezit'
-        }
-        else if (i == 'telegram') {
-            window.location.href = 'http://tmstart.me/karadza_b'
-        }
-    }); 
-};
+sidebar.addEventListener("click", e =>  {
+    i = e.target.getAttribute('id')
+
+    console.log(i)
+    if ( i == 'instagram') {
+        window.location.href = 'https://www.instagram.com/b.karajaew?igshid=MTNiYzNiMzkwZA==';
+    }
+    else if (i == 'github') {
+        window.location.href = 'https://github.com/karadzabayezit'
+    }
+    else if (i == 'telegram') {
+        window.location.href = 'http://tmstart.me/karadza_b'
+    }
+}); 
+
 
 
 

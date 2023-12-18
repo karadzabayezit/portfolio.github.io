@@ -50,18 +50,21 @@ function share() {
     sidebar.addEventListener("click", e =>  {
         i = e.target.getAttribute('id')
         if ( i == 'instagram') {
-            window.location.href = 'https://instagram.com';
+            window.location.href = 'https://www.instagram.com/b.karajaew?igshid=MTNiYzNiMzkwZA==';
         }
-        else if (i == 'goToContact') {
-            window.location.href = '#contact'
-        };
+        else if (i == 'github') {
+            window.location.href = 'https://github.com/karadzabayezit'
+        }
+        else if (i == 'telegram') {
+            window.location.href = 'http://tmstart.me/karadza_b'
+        }
     }); 
 };
 
 
 
 // ########  MOUSEMOVE  ################################################
-window.addEventListener('load', function () {
+
     var O = document.getElementById('obj'),
     X = 0,
     Y = 0,
@@ -82,7 +85,7 @@ window.addEventListener('load', function () {
             }
             move();
         }   
-});
+
 // ######################################################################
 
 

@@ -1062,7 +1062,7 @@ body {
     width: 95%;
   }
 }
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 398px) {
   @keyframes moving-text-animation {
     0% {
       top: 82px;
@@ -1105,7 +1105,7 @@ body {
   }
   .home .container__moving-text {
     padding: 0;
-    font-size: 1.85rem;
+    font-size: 1.8rem;
   }
   .about__content-text .typewriter {
     font-size: 1.3rem;
